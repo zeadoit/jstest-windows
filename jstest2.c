@@ -1,5 +1,12 @@
 #include <windows.h>
 #include <stdio.h>
+#include "mmsystem.h"
+// note:
+// Remember to include the winmm.lib in your project.
+// otherwise you will get a link error.
+
+
+
 int main()
 {
     int i;
